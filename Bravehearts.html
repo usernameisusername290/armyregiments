@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes of the Indian Army</title>
+    
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+        body {
+            font-family: 'Yeon Sung', cursive;
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #004d00;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        .wall-of-fame {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .person {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            width: 220px;
+            padding: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .person:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+        }
+
+        .person img {
+            width: 200px; /* Set a fixed width */
+            height: 200px; /* Set a fixed height */
+            border-radius: 15px;
+            border: 3px solid #004d00;
+            object-fit: cover; /* Maintain aspect ratio while covering the area */
+        }
+
+        .description {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 10px 0;
+            background-color: #004d00;
+            color: white;
+            border-radius: 5px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            .wall-of-fame {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .person {
+                width: 90%; /* Responsive width on small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Heroes of the Indian Army</h1>
+
+    <div class="wall-of-fame">
+        <div class="person">
+            <img src="vbatra.jpg" alt="Vikram Batra">
+            <h3>Vikram Batra</h3>
+            <a href="https://en.wikipedia.org/wiki/Vikram_Batra" target="_blank">Learn More</a>
+        </div>
+        
+        <div class="person">
+            <img src="samManekshaw.jpg" alt="Sam Manekshaw">
+            <h3>Sam Manekshaw</h3>
+            <a href="https://en.wikipedia.org/wiki/Sam_Manekshaw" target="_blank">Learn More</a>
+        </div>
+
+        <div class="person">
+            <img src="rabindranathModak.jpg" alt="Rabindra Nath Modak">
+            <h3>Rabindra Nath Modak</h3>
+            <a href="rabindranath.html" target="_blank">Learn More</a>
+        </div>
+
+        <div class="person">
+            <img src="rajendrap.jpg" alt="Rajendra Prasad Meena">
+            <h3>Rajendra Prasad Meena</h3>
+            <a href="https://honourpoint.in/profile/rifleman-rajendra-prasad-meena/#:~:text=Rifleman%20Rajendra%20Prasad%20Meena%20hailed,and%20was%20eldest%20among%20them." target="_blank">Learn More</a>
+        </div>
+
+        <div class="person">
+            <img src="https://honourpoint.in/wp-content/uploads/2020/10/aaaaaa-fp.jpg" alt="Akhilesh Kumar Pandey">
+            <h3>Akhilesh Kumar Pandey</h3>
+            <a href="https://honourpoint.in/profile/rifleman-akhilesh-kumar/" target="_blank">Learn More</a>
+        </div>
+
+        <div class="person">
+            <img src="https://bharatkeveer.gov.in/martyrsMedia?martyrsId=643" alt="Alok Rao">
+            <h3>Alok Rao</h3>
+            <a href="https://honourpoint.in/profile/rifleman-alok-rao-sc/" target="_blank">Learn More</a>
+        </div>
+    </div>
+<button >
+    <a href="index.html">🏠HOME</a>
+</button>
+    <footer>
+        <p>&copy; Created and developed by Parv Sharma</p>
+    </footer>
+</body>
+</html>
